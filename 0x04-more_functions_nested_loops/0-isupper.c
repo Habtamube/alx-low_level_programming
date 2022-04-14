@@ -2,8 +2,6 @@
  * main - check the code
  * Return: always 0
  */
-int main(void)
-{
 	int _isupper(int c);
 	{
 		if(c>='A' && c<='Z')
@@ -14,4 +12,3 @@ int main(void)
 		
 			return (0);
 		}
-}
