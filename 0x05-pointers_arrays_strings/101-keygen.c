@@ -1,6 +1,7 @@
 #include <math.h>
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h>
+#include <time.h>
 /**
 *Function to randomly generates password
 *of length N
@@ -9,6 +10,7 @@ void randomPasswordGeneration(int N)
 {
     int i = 0;
     int randomizer = 0;
+    srand((unsigned int)(time(NULL)));
     char numbers[] = "0123456789";
     char letter[] = "abcdefghijklmnoqprstuvwyzx";
     char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
