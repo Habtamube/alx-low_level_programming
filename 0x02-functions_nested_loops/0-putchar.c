@@ -1,5 +1,5 @@
 #include "main.h"
-#include <studio.h>
+
 /**
 *main print - string _putchar
 *return: 0
