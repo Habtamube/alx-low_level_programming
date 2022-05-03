@@ -9,6 +9,7 @@
  * Return: a pointer to a new string
  */
 char **strtow(char *str)
+	
 {
 	int i, w, j, k, count, m, wordf;
 	char **p;
@@ -28,8 +29,10 @@ char **strtow(char *str)
 			w++;
 	}
 	p = (char **)malloc((w + 1) * sizeof(char *));
+	
 	if (p == NULL)
 		return (NULL);
+	
 	for (wordf = 0; str[wordf] && j <= w; wordf++)
 	{
 		count = 0;
@@ -42,6 +45,7 @@ char **strtow(char *str)
 				count++;
 			}
 			*(p + j) = (char *)malloc((count + 1) * sizeof(char));
+			
 			if (*(p + j) == NULL)
 			{
 				for (k = 0; k <= j; k++)
