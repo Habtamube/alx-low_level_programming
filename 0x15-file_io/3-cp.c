@@ -8,7 +8,6 @@
 
 /**
  * main - main file that copy file
- * .
  * @argv: pointers arguments. 
  * Return: return 0 if all ok.
  */
