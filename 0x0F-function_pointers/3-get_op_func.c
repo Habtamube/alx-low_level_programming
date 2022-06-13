@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "3-calc.h"
+#include "3-main.h"
 
 /**
  * get_op_func - function pointer
